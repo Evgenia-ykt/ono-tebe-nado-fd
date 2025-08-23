@@ -2,7 +2,8 @@
 display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: center
-padding: 92px 50px 96px 50px;    
+padding: 92px 50px 96px 50px;
+list-style: circle;    
 }
 .header__links-list {
 display: flex;
@@ -13,4 +14,18 @@ list-style: circle;
 .header__links-list-item_no-bullit {
     list-style-type: none;
 }
-
+.header_logo {
+    display: block;
+width: 148px;
+height: 105px;
+}
+.header__address {
+   max-width: 240px; 
+   justify-self: end;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.cover{
+    
+}

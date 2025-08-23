@@ -13,8 +13,8 @@
    <header class="header">
     <nav class="header__menu">
       <ul class="header__links-list">
-        <li class="header__links-list-item">
-        <a class="header__link_active header__links-list-item_no-bullit" href="#0">главная</a>  
+        <li class="header__links-list-item header__links-list-item_no-bullit">
+        <a class="header__link_active" href="#0">главная</a>  
         </li>
          <li class="header__links-list-item">
         <a class="header__link" href="#0">посмотреть лоты</a>  
@@ -25,14 +25,8 @@
       </ul>
     </nav>
     <a class="header_logo">
-      <img
-      class="logo-black"
-      src=".images\logo-black.svg"
-      alt="логотип черный"/>
-      <img
-      class="logo-white"
-      src=".images\logo-white.svg"
-      alt="логотип белый"/>
+      <img src="./images/logo-black.svg"
+      alt="логотип"/>
     </a>
     <address class="header__address">
 <a href="tel:+99995555555">+9 999 555 5555</a>
@@ -42,6 +36,12 @@
    </header> 
    <main>
     <section class="cover">
+      <div class="overlay"></div>
+      <h1 class="cover_title"></h1>
+      <div class="description">
+        <p class="text-description"></p>
+        <button class="bet-button">Сделать ставку</button> 
+      </div>
       </section>
     <section class="lots"></section>
     <section class="about"></section>
