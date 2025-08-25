@@ -105,6 +105,7 @@ min-height: 723px;
 margin-top: 180px;
 margin-right: 24px;
 margin-left: 24px;
+margin-bottom: 120px;
  }
  .lots_title {
 padding bottom: 27px;
@@ -176,7 +177,7 @@ color: rgba(255, 255, 255, 1);
 z-index: 2;  
 }
 .about {
-margin-top: 120px;
+margin-bottom: 180px;
  }
  .about__column {
   display: grid;
@@ -226,7 +227,32 @@ font-size: 20px;
 leading-trim: NONE;
 line-height: 24px;
 letter-spacing: 0%;
-
 color: rgba(0, 0, 0, 1);
-
+}
+.footer {
+display: grid; 
+grid-template-columns: 1fr min-content 1fr; 
+background-color: aqua; 
+align-items: flex-start;
+}
+.footer__address {
+      max-width: 240px;
+      display: flex; 
+   justify-self: start;
+      flex-direction: column;
+   align-items: flex-start;
+   font-size: 18px;
+line-height: 24.3px;
+}
+.footer__menu-list {
+ display: flex;
+ flex-direction: column;
+ justify-self: center;
+font-size: 18px;
+list-style-type: none;
+font-size: 18px;
+line-height: 100%;   
+}
+.footer__menu-link_active {
+text-decoration: none;    
 }
