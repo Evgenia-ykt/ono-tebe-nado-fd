@@ -239,6 +239,7 @@
   align-items: flex-start;
   padding-right: 50px;
   padding-left: 50px;
+  padding-bottom: 82px;
 }
 .footer__address {
   display: flex;
